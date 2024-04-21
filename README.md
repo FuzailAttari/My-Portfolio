@@ -1,0 +1,1 @@
+https://fuzailmanaiportfolio.netlify.app/
