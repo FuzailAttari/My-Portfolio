@@ -1,0 +1,337 @@
+@font-face {
+    font-family: "my font";
+    src: url(./font/IM_Fell_French_Canon/ProtestRevolution-Regular.ttf);
+} 
+body{
+    background-color: black;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+.navbar{
+    display: flex;
+    font-family:"my font";
+    
+    justify-content: space-evenly;
+    list-style: none;
+    align-items:center;
+    background-color:black;
+
+}
+a:hover{
+    color: red;
+}
+
+a{
+    color: aliceblue;
+    text-decoration: none;
+
+    font-size: large;
+}
+
+
+
+.hero{
+    display: flex;
+    height: 600px;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: url(./IMAGES/back.jpg);
+}
+
+button>a {
+    color:white;
+    text-transform: capitalize;
+    font-family:"my font";
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+button{
+    font-size: 20px;
+    background-color: rgb(213, 28, 28);
+    width: 150px;
+    margin-left: 30px;
+    height: 50px;
+    border-radius: 25px;
+    font-weight: bolder;
+    color:white;
+    text-transform: capitalize;
+    font-family:"my font";
+
+}
+button:hover{
+    background-color: green;
+    color: red  ;
+}
+.right>h1{
+    font-size: 35px;
+    text-transform: capitalize;
+    line-height: 1.7cm;
+    color: aliceblue;
+    font-family: "my font";
+    
+
+
+}
+
+
+.left> img {
+
+    border-radius: 25px;
+}
+
+.card-section{
+    display: flex;
+}
+    /* Parent hero-1 */
+.hero-1{
+    display: flex;
+    height: 500px;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(1, 1, 1);
+    padding-top: 50px;
+
+}
+
+.hero1{
+
+    
+    border: 2px solid violet;
+    margin-bottom: 50px;
+
+    width: 23%;
+    height: 400px;
+    box-shadow: 10px 10px 10px palevioletred;
+    background-image: url(./IMAGES/back.jpg);
+}
+.hero1 > img{
+    width: 100%;
+}
+
+h3{
+    font-size: 40px;
+    text-align: center;
+     margin: 20px;
+    color: red;
+    font-family:"my font";
+
+
+
+}
+
+.hero1>li{
+    list-style: none;
+    padding-left: 10px;
+    line-height: 0.7cm;
+    color: white;
+}
+.hero1>a {
+    padding-left: 40px;
+}
+div+a{
+
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+
+
+}
+
+
+/* Media QUree */
+
+@media only screen and (max-width: 400px){
+
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        height: 300px;
+    }
+    button{
+        font-size: 14px;
+    
+    }
+    
+    
+    .hero-1{
+        display: flex;
+        flex-direction: column;
+        
+               
+    }
+
+
+    
+
+    /* ------------------------------- */
+    .hero{
+
+        height: 300px;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    
+    .right>h1{
+        font-size: 15px;
+        text-transform: capitalize;
+        line-height: 0.8cm;
+    }
+
+    .left> img {
+    
+        border-radius: 25px;
+        width: 120px;
+        
+    }
+    button{
+        background-color: rgb(213, 28, 28);
+        width: 100px;
+        margin-left: 1px;
+        height: 30px;
+    }
+    button>a {
+        color:white;
+        text-transform: capitalize;
+        font-family:"my font";
+        text-decoration: none;
+        font-size: 13px;
+    }
+    
+    
+}
+
+@media only screen and (max-width: 500px){
+
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        height: 300px;
+    }
+    button{
+        font-size: 14px;
+    
+    }
+    
+    .hero-1{
+        display: flex;
+        flex-direction: column;
+    
+    }
+    
+    /* ------------------------------- */
+    .hero{
+
+        height: 300px;
+        display: flex;
+        justify-content: space-around;
+    
+    }
+
+    
+    .right>h1{
+        font-size: 15px;
+        text-transform: capitalize;
+        line-height: 0.8cm;
+    }
+
+    .left> img {
+    
+        border-radius: 25px;
+        width: 120px;
+        
+    }
+    button{
+        background-color: rgb(213, 28, 28);
+        width: 100px;
+        margin-left: 1px;
+        height: 30px;
+    }
+    button>a {
+        color:white;
+        text-transform: capitalize;
+        font-family:"my font";
+        text-decoration: none;
+        font-size: 13px;
+    }
+    
+}
+
+@media only screen and (max-width: 600px){
+
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        height: 300px;
+    }
+    button{
+        font-size: 14px;
+    
+    }
+    .hero-1{
+        display: flex;
+        flex-direction: column;
+
+
+        
+
+        
+    }
+    .hero1{
+        width:65%;
+        /* padding-left: 30px; */
+       
+    }
+    /* ------------------------------- */
+    .hero{
+
+        height: 300px;
+        display: flex;
+        justify-content: space-around;
+        
+
+        
+        background-image: url(./IMAGES/back.jpg);
+    }
+
+    
+    .right>h1{
+        font-size: 15px;
+        text-transform: capitalize;
+        line-height: 0.8cm;
+    }
+
+    .left> img {
+    
+        border-radius: 25px;
+        width: 150px;
+        
+    }
+    button{
+        background-color: rgb(213, 28, 28);
+        width: 100px;
+        margin-left: 1px;
+        height: 30px;
+    }
+    button>a {
+        color:white;
+        text-transform: capitalize;
+        font-family:"my font";
+        text-decoration: none;
+        font-size: 13px;
+    }
+    
+}
+
+
+
+
+
+
+
